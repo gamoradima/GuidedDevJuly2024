@@ -15,7 +15,7 @@
         {
           "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
           "ColumnName": "Description",
-          "Value": "updated descr"
+          "Value": "land area only, no property"
         }
       ]
     },
@@ -34,7 +34,7 @@
         {
           "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
           "ColumnName": "Description",
-          "Value": ""
+          "Value": "apartments in condo, no land"
         }
       ]
     },
@@ -53,7 +53,7 @@
         {
           "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
           "ColumnName": "Description",
-          "Value": ""
+          "Value": "private houses, separate land included"
         }
       ]
     }

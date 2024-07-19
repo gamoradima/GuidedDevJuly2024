@@ -414,12 +414,11 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				request: "usr.PushButtonRequest",
 				/* Implementation of the custom query handler. */
 				handler: async (request, next) => {
-					this.console.log("Button works...");
 					console.log("Button works...");
                   
 					Terrasoft.showInformation("My button was pressed.");
 					var price = await request.$context.PDS_UsrPriceUSD_ghey7r7;
-					this.console.log("Price = " + price);
+					console.log("Price = " + price);
 					request.$context.PDS_UsrPriceUSD_ghey7r7 = price * 0.2;
 					/* Call the next handler if it exists and return its result. */
 					return next?.handle(request);
@@ -430,7 +429,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				/* The custom implementation of the system query handler. */
 				handler: async (request, next) => {
 					if (request.attributeName === 'PDS_UsrPriceUSD_ghey7r7' || 				// if price changed
-					   request.attributeName === 'PDS_UsrOfferTypeUsrCommissionPercent' ) { 		// or percent changed
+					    request.attributeName === 'PDS_UsrOfferTypeUsrCommissionPercent' ) { 		// or percent changed
 						var price = await request.$context.PDS_UsrPriceUSD_ghey7r7;
 						var percent = await request.$context.PDS_UsrOfferTypeUsrCommissionPercent;
 						var commission = price * percent / 100;
