@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="My applications homepage" />
+			<Item Name="LocalizableStrings.ChartWidget_yqqajd6_series_0.Value" Value="Realty" />
+			<Item Name="LocalizableStrings.ChartWidget_yqqajd6_title.Value" Value="Realty by type" />
+			<Item Name="LocalizableStrings.IndicatorWidget_ovjfa74_template.Value" Value="{0}" />
+			<Item Name="LocalizableStrings.IndicatorWidget_ovjfa74_title.Value" Value="Houses count" />
+		</Items>
+	</Group>
+</Resources>

@@ -4,10 +4,20 @@
 		<Items>
 			<Item Name="Caption" Value="Realty form page" />
 			<Item Name="LocalizableStrings.addRecord_6f9mwuy_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_6gv3ffb_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_8jux5yp_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_czk0vna_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_q5q20kq_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Area_tooltip.Value" Value="Area should be specified in square metres" />
 			<Item Name="LocalizableStrings.AreaCannotBeLess.Value" Value="Area cannot be less than 10 sq m" />
 			<Item Name="LocalizableStrings.Button_44pu35x_caption.Value" Value="Push me!" />
+			<Item Name="LocalizableStrings.ExpansionPanel_3i944va_title.Value" Value="Visits" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_dduuyxh_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_yvcxxff_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_63e9h75_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_cr2zlc2_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_a0gpcq9_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_jh8jeqm_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.NumberInput_7zj9zw0_label.Value" Value="Number" />
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 50.0 USD" />
 		</Items>
